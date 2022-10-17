@@ -15,7 +15,9 @@ df = pd.read_csv(BytesIO(data), index_col=0)
 
 df.columns = ['email', 'qtd', 'oficina']
 
-st.markdown(":books:")	
+st.markdown("""
+                :bar_chart:
+            """)	
 st.title("Aferição de Público nas Oficinas Mack Week 2022")
 SUB_TITULO = '<p style="font-family:tahoma; color:Blue; font-size: 28px;">Desenvolvido pelo prof. Massaki de O. Igarashi</p>'
 st.markdown(SUB_TITULO, unsafe_allow_html=True)
