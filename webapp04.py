@@ -19,7 +19,7 @@ st.markdown("""
                 # *Oficinas Mack Week 2022* :bar_chart:
             """)	
 st.subheader("Fig. 1 - Aferição de Púbico")
-SUB_TITULO = '<p style="font-family:tahoma; color:Blue; font-size: 28px;">Desenvolvido pelo prof. Massaki de O. Igarashi</p>'
+SUB_TITULO = '<p style="font-family:tahoma; color:Blue; font-size: 22px;">Desenvolvido pelo prof. Massaki de O. Igarashi</p>'
 st.markdown(SUB_TITULO, unsafe_allow_html=True)
 
 #O ideal, ao realizar quantificação de dados, é inicializar as variáveis ou arranjos de dados com valores 0, isto garante que não dê erro na exibição
