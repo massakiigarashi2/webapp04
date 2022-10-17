@@ -147,7 +147,7 @@ Oficinas = ['0','Oficina01','Oficina02','Oficina03','Oficina04','Oficina05','Ofi
 
 # Pie chart, where the slices will be ordered and plotted counter-clockwise:
 #labels = 'Frogs', 'Hogs', 'Dogs', 'Logs'
-labels = ['Oficina01' + str(qtd01),'Oficina02','Oficina03','Oficina04','Oficina05','Oficina06','Oficina07','Oficina08','Oficina09','Oficina10','Oficina11', 'Oficina12','Oficina13','Oficina14','Oficina15','Oficina16','Oficina17','Oficina18','Oficina19','Oficina20',  'Oficina21']
+labels = ['Oficina01(' + str(qtd01)+")",'Oficina02','Oficina03','Oficina04','Oficina05','Oficina06','Oficina07','Oficina08','Oficina09','Oficina10','Oficina11', 'Oficina12','Oficina13','Oficina14','Oficina15','Oficina16','Oficina17','Oficina18','Oficina19','Oficina20',  'Oficina21']
 
 #sizes = [15, 30, 45, 10]
 sizes = [qtd01, qtd02, qtd03, qtd04, qtd05, qtd06, qtd07, qtd08, qtd09, qtd10, qtd11, qtd12, qtd13, qtd14, qtd15, qtd16, qtd17, qtd18, qtd19, qtd20, qtd21]
