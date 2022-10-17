@@ -17,7 +17,7 @@ df.columns = ['email', 'qtd', 'oficina']
 
 st.markdown("""
                 :bar_chart:
-                # *Aferição de Público nas Oficinas Mack Week 2022*
+                ## *Aferição de Público nas Oficinas Mack Week 2022*
             """)	
 st.title("Aferição de Público nas Oficinas Mack Week 2022")
 SUB_TITULO = '<p style="font-family:tahoma; color:Blue; font-size: 28px;">Desenvolvido pelo prof. Massaki de O. Igarashi</p>'
