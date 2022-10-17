@@ -15,8 +15,10 @@ df = pd.read_csv(BytesIO(data), index_col=0)
 
 df.columns = ['email', 'qtd', 'oficina']
 
-#O método .head() na linguagem Python retorna uma série de valores selecionados desde o início.
-df.head()
+st.markdown(":books:")	
+st.title("Aferição de Público nas Oficinas Mack Week 2022")
+SUB_TITULO = '<p style="font-family:tahoma; color:Blue; font-size: 28px;">Desenvolvido pelo prof. Massaki de O. Igarashi</p>'
+st.markdown(SUB_TITULO, unsafe_allow_html=True)
 
 #O ideal, ao realizar quantificação de dados, é inicializar as variáveis ou arranjos de dados com valores 0, isto garante que não dê erro na exibição
 qtd01 = 0
